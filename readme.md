@@ -32,7 +32,7 @@ foo@bar:~$ cat registrar/data/inputs/input.json
 ```
 To run the program against your own configuration, simply provide the relative path to the JSON file from the repository directory using flag `-f`.
 ```console
-foo@bar:~$ python main.py $relative_path
+foo@bar:~$ python registrar/main.py -f $relative_path
 ```
 
 
